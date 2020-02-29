@@ -2,7 +2,7 @@
   "name": "v8-geckos-team-09",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Hassan78.github.io/v8-geckos-team-09-dev",
+  "homepage": "https://hassan78.github.io/v8-geckos-team-09-dev/",
   "dependencies": {
     "cors": "^2.8.5",
     "enzyme": "^3.9.0",
