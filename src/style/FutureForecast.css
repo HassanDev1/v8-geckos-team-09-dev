@@ -1,0 +1,10 @@
+.forecast {
+    width: 300px;
+    float: right;
+}
+
+@media only screen and (max-width: 675px) {
+    .forecast {
+        visibility: hidden;
+    }
+}

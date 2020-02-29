@@ -1,0 +1,45 @@
+.todos-container {
+    grid-column: 4 / 5;
+    grid-row: 2 / 5;
+    background-color: transparent;
+    align-self: end;
+    margin: 0 5px 40px 5px;
+}
+
+.todos-heading {
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.todo-form {
+    width: 100%;
+}
+.todo-input {
+    background: rgba(0,0,0,0.3);
+    color: #DCDCDC;
+    border: none;
+    padding-left: 5px;
+    width: 90%;
+}
+
+.todo-button {
+    background: rgba(0,0,0,0.5);
+    width: 10%;
+    border: none;
+    color: #DCDCDC;
+    line-height: 21px;
+}
+
+.todo-button:hover {
+    background: rgba(0,0,0,0.7);
+}
+
+@media only screen and (max-width: 675px) {
+    .todos-container {
+        grid-column: 1 / 5;
+        grid-row: 4 / 5;
+        width: 300px;
+        margin: 20px auto;
+    }
+}
